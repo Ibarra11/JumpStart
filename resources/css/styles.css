@@ -1,0 +1,31 @@
+body{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav Styles */
+
+nav ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+a{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.active{
+  color: #399bd1;
+  background-color: inherit;
+}
+
+
+
+/* Hide the logo when the page breaks at approximately 768 px */
+@media only screen and (max-width: 768px) {
+  nav .nav-logo{
+    display: none;
+  }
+}
