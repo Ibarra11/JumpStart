@@ -58,8 +58,16 @@ a{
 }
 
 /************************
-  Featurs Styles
+  Features Styles
 *************************/
+.features{
+  margin-bottom: 5.85rem; 
+}
+
+.features .projects .projects-img{
+  margin-bottom: 1rem;
+}
+
 .features h2{
   margin-bottom: 20px;
   font-size: 1.7rem;
@@ -75,6 +83,8 @@ a{
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
 }
+
+
 
 
 
