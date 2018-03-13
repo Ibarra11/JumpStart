@@ -18,7 +18,62 @@ a{
 }
 .active{
   color: #399bd1;
-  background-color: inherit;
+}
+
+/************************
+  Jumbotron Styles
+*************************/
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  padding: 6.25rem 0;
+}
+
+.jumbotron-content{
+  width: 51.8rem;
+  text-align: center;
+  color: white;
+}
+.jumbrotron-bike{
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-position-y: -120px;
+  /* background-position-x: -50px; */
+}
+.jumbotron button{
+  margin-top: 2.8rem;
+  padding: 0.625rem 1.5rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1{
+  font-family: Monoton;
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron p{
+  font-size: 1.5rem;
+}
+
+/************************
+  Featurs Styles
+*************************/
+.features h2{
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.features h5{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.features p, .features li{
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 
