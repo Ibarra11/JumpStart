@@ -28,6 +28,8 @@ nav ul{
   justify-content: space-between;
   margin-bottom: 0;
 }
+
+
 a{
   font-size: 1.1rem;
   font-weight: bold;
@@ -55,25 +57,25 @@ a{
 .jumbrotron-bike{
   background-image: url("../images/jumbotron-bike.jpg");
   background-size: cover;
-  padding: 8.5rem 0;
+  padding: 10.5rem 0;
 }
 
 .jumbotron-beer{
   background-image: url("../images/jumbotron-beer.jpg");
   background-size: cover;
-  padding: 9.6rem 0;
+  padding: 11.5rem 0;
 }
 
 .jumbotron-flowers{
   background-image: url("../images/jumbotron-flowers.jpg");
   background-size: cover;
-  padding: 9.6rem 0;
+  padding: 11.5rem 0;
 }
 
 .jumbotron-duffel{
   background-image: url("../images/jumbotron-duffel.jpg");
   background-size: cover;
-  padding: 9.6rem 0;
+  padding: 11.5rem 0;
 }
 
 .jumbotron h1{

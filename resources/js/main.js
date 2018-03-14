@@ -6,4 +6,14 @@ $(document).ready(function(){
     autoplaySpeed: 2000,
     arrows: false
   });
+
+  $(window).scroll(function(){
+    if(window.scrollY > 90){
+      $('.navbar').hide("slide", 5000);
+    }
+    else{
+        $('.navbar').show("slide", 5000);
+    }
+  })
+
 });
